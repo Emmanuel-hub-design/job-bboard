@@ -1,12 +1,13 @@
 // src/App.js
 import React from 'react';
-import EducationList from './components/EducationList';
-import ExperienceList from './components/ExperienceList';
-import ProfileList from './components/ProfileList';
-import ResumeList from './components/ResumeList';
-import SkillsList from './components/SkillsList';
-import UserList from './components/UserList';
-import CoverLetterList from './components/CoverLetterList';
+import EducationList from './Components/EducationList';
+import ExperienceList from './Components/ExperienceList';
+import ProfileList from './Components/ProfileList';
+import ResumeList from './Components/ResumeList';
+import SkillsList from './Components/SkillsList';
+import UserList from './Components/UserList';
+
+
 
 const App = () => {
   return (
@@ -17,7 +18,7 @@ const App = () => {
       <ResumeList />
       <SkillsList />
       <UserList />
-      <CoverLetterList />
+  
       {/* Use other components */}
     </div>
   );
